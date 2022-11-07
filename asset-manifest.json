@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/restaurant/static/css/main.beddc829.css",
+    "main.js": "/restaurant/static/js/main.90304710.js",
+    "static/media/meal.mp4": "/restaurant/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
+    "static/media/bg.png": "/restaurant/static/media/bg.3d421b1b5682e1b67deb.png",
+    "static/media/welcome.png": "/restaurant/static/media/welcome.d724eb984456d9c97470.png",
+    "static/media/findus.png": "/restaurant/static/media/findus.585c393ccd3671513743.png",
+    "static/media/laurels.png": "/restaurant/static/media/laurels.e760828692795d4aafd7.png",
+    "static/media/chef.png": "/restaurant/static/media/chef.02d6c5b61bfdc70303b4.png",
+    "static/media/menu.png": "/restaurant/static/media/menu.a8287c67809afebcc280.png",
+    "static/media/gallery04.png": "/restaurant/static/media/gallery04.c36a695f8a3b9d311106.png",
+    "static/media/gallery03.png": "/restaurant/static/media/gallery03.b2d50180e8590d4dd330.png",
+    "static/media/gallery02.png": "/restaurant/static/media/gallery02.27663bd9016b72ccd328.png",
+    "static/media/gallery01.png": "/restaurant/static/media/gallery01.f2cbffe3049d6f91e0df.png",
+    "static/media/gallery06.png": "/restaurant/static/media/gallery06.ef51aaa281e8e5f4f58a.png",
+    "static/media/gallery07.png": "/restaurant/static/media/gallery07.d697c40f300882976ae8.png",
+    "static/media/gallery05.png": "/restaurant/static/media/gallery05.5f6f41dcf9dc210fb067.png",
+    "static/media/header-gal-img0.jpg": "/restaurant/static/media/header-gal-img0.b07ee2fa4e506d115bfb.jpg",
+    "static/media/knife.png": "/restaurant/static/media/knife.1121c0a5afb62acb31cb.png",
+    "static/media/overlaybg.png": "/restaurant/static/media/overlaybg.165362eea72d1614ae28.png",
+    "static/media/header-gal-img3.jpg": "/restaurant/static/media/header-gal-img3.49605a42348ab716a1ef.jpg",
+    "static/media/header-gal-img2.jpg": "/restaurant/static/media/header-gal-img2.c2260492c26fb1140eda.jpg",
+    "static/media/header-gal-img1.jpg": "/restaurant/static/media/header-gal-img1.8848a046bba4cdf36bf2.jpg",
+    "static/media/header-gal-img5.jpg": "/restaurant/static/media/header-gal-img5.4d8aebf85e75ba9fa615.jpg",
+    "static/media/header-gal-img4.jpg": "/restaurant/static/media/header-gal-img4.663bc8b6071ec353e87d.jpg",
+    "static/media/G.png": "/restaurant/static/media/G.b571eb82e589ec305ec9.png",
+    "static/media/logo.png": "/restaurant/static/media/logo.0286194c03de0a90dac9.png",
+    "static/media/award02.png": "/restaurant/static/media/award02.8bbdd51499739653b003.png",
+    "static/media/award05.png": "/restaurant/static/media/award05.48a7f5206184009dcb29.png",
+    "static/media/award01.png": "/restaurant/static/media/award01.361a4bc44b59b55abeda.png",
+    "static/media/award03.png": "/restaurant/static/media/award03.3f7ee934c17dccbd5fc6.png",
+    "static/media/sign.png": "/restaurant/static/media/sign.9bf0bd90ad4caa17991f.png",
+    "static/media/spoon.svg": "/restaurant/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
+    "index.html": "/restaurant/index.html",
+    "main.beddc829.css.map": "/restaurant/static/css/main.beddc829.css.map",
+    "main.90304710.js.map": "/restaurant/static/js/main.90304710.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.beddc829.css",
+    "static/js/main.90304710.js"
+  ]
+}
