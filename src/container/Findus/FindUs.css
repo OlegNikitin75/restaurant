@@ -1,0 +1,78 @@
+.find {
+  padding: 128px 0;
+  background-image: url("../../assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.find__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+
+.find__content {
+  max-width: 513px;
+}
+
+.find__desc {
+  font-family: var(--font-alt);
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-grey);
+  margin-bottom: 32px;
+}
+
+.find__hours-title {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+  margin-bottom: 16px;
+}
+
+.find__hours-item {
+  font-family: var(--font-alt);
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.find__hours-item + .find__hours-item {
+  margin-bottom: 64px;
+}
+
+.find__image {
+  max-width: 667px;
+}
+
+.find__image img {
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .find__inner {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .find {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .find__inner {
+    flex-direction: column;
+  }
+
+  .find__hours-item + .find__hours-item {
+    margin-bottom: 32px;
+  }
+}

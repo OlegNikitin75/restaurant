@@ -1,0 +1,139 @@
+.gallery {
+  padding: 46px 0 20px max(20px, calc((100% - 1580px) / 2));
+  background-color: var(--color-black);
+  display: flex;
+  gap: 64px;
+}
+
+.gallery__content {
+  flex-shrink: 0;
+  max-width: 490px;
+}
+
+.gallery__title {
+  margin-bottom: 20px;
+}
+
+.gallery__desc {
+  font-family: var(--font-alt);
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-grey);
+  margin-bottom: 24px;
+}
+
+.gallery__images {
+  position: relative;
+  display: flex;
+  flex: content;
+  width: calc(100% - 490px - 64px);
+}
+
+.gallery__images-container {
+  display: flex;
+  gap: 32px;
+  max-width: max-content;
+  overflow-y: hidden;
+}
+
+.gallery__images-container::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery__images-item {
+  position: relative;
+  min-width: 300px;
+  height: 447px;
+}
+
+.gallery__images-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.gallery__images-item:hover img {
+  opacity: 0.35;
+}
+
+.gallery__image-icon {
+  position: absolute;
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery__images-item:hover .gallery__image-icon {
+  opacity: 1;
+}
+
+.gallery__buttons {
+  position: absolute;
+  bottom: 5%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 32px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery__btn-icon {
+  color: var(--color-golden);
+  font-size: 32px;
+  background-color: var(--color-black);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gallery__btn-icon:hover {
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 1200px) {
+  .gallery {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .gallery {
+    flex-direction: column;
+  }
+
+  .gallery__content {
+    max-width: 100%;
+    flex: content;
+  }
+
+  .gallery__images {
+    position: relative;
+    display: flex;
+    flex: content;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .gallery__images-item {
+    position: relative;
+    min-width: 100%;
+  }
+
+  .gallery {
+    padding-right: 20px;
+  }
+
+  .gallery__images-container {
+    gap: 20px;
+  }
+}

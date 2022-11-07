@@ -1,0 +1,24 @@
+.pagination__item {
+    font-family: var(--font-alt);
+    position: relative;
+    padding-right: 8px;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+}
+.pagination__item--active {
+    padding-right: 24px;
+}
+
+.pagination__item--active:after {
+    position: absolute;
+    top: 56%;
+    right: 5px;
+    content: "";
+    width: 16px;
+    height: 1px;
+    background-color: var(--color-golden);
+}

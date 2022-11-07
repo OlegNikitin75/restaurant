@@ -1,0 +1,120 @@
+.chef {
+  padding: 128px 0;
+  background-image: url("../../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chef__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 96px;
+}
+
+.chef__picture {
+  max-width: 660px;
+}
+
+.chef__picture img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.chef__content {
+  max-width: 570px;
+}
+
+.chef__title {
+  margin-bottom: 42px;
+}
+
+.chef__desc {
+  position: relative;
+  font-family: var(--font-alt);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-grey);
+  text-indent: 50px;
+  margin-bottom: 64px;
+}
+
+.chef__desc:before {
+  position: absolute;
+  content: "";
+  width: 47px;
+  height: 40px;
+  left: 0;
+  top: -9px;
+  background-image: url("../../assets/quote.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.chef__name {
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+  margin-bottom: 8px;
+}
+
+.chef__status {
+  font-family: var(--font-alt);
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-grey);
+  margin-bottom: 64px;
+}
+
+.chef__sign {
+  width: 235px;
+}
+
+.chef__sign img {
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+  .chef__inner {
+    gap: 42px;
+  }
+
+  .chef__content {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .chef {
+    padding: 60px 0;
+  }
+
+  .chef__desc:before {
+    width: 32px;
+    height: 32px;
+    background-size: 80%;
+    top: -3px;
+  }
+
+  .chef__desc {
+    font-size: 14px;
+    text-indent: 32px;
+    margin-bottom: 32px;
+  }
+
+  .chef__status {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .chef__inner {
+    flex-direction: column;
+  }
+}

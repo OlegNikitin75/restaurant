@@ -1,0 +1,125 @@
+.navbar {
+  height: 120px;
+  background-color:var(--color-black);
+}
+.navbar__inner {
+  padding: 30px 0;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__logo {
+  width: 200px;
+}
+.navbar__logo img {
+  object-fit: cover;
+  width: 100%;
+}
+.navbar__navigate {
+  color: #ffffff;
+  font-family: var(--font-alt);
+}
+.navbar__navigate-list {
+  display: flex;
+  gap: 32px;
+}
+.navbar__navigate-item {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.navbar__navigate-item:hover {
+  color: var(--color-golden);
+}
+.navbar__login {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-alt);
+  font-weight: 600;
+  color: #ffffff;
+}
+.navbar__login a {
+  padding-bottom: 3px;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+.navbar__login a:hover {
+  border-bottom: 1px solid var(--color-grey);
+}
+.navbar__login-line {
+  width: 1px;
+  height: 30px;
+  margin: 0 30px;
+  background-color: var(--color-grey);
+}
+
+.navbar__mobileMenu-trigger {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.navbar__mobileMenu-trigger:hover {
+  transform: scale(1.2);
+}
+.navbar__mobileMenu-open {
+  display: none;
+}
+.navbar__mobileMenu-close {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
+
+.navbar__navigate--mobile {
+  position: fixed;
+  z-index: 10;
+  inset: 0;
+  background-color: #0c0c0c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  font-size: 32px;
+}
+.navbar__navigate--mobile ul {
+  flex-direction: column;
+}
+.navbar__navigate--mobile li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.navbar__navigate--mobile li:hover {
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 1050px) {
+  .navbar__mobileMenu-open {
+    display: block;
+  }
+  .navbar__navigate {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  .navbar {
+    min-height: 130px;
+  }
+  .navbar__inner {
+    padding: 20px 0;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .navbar__logo {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .navbar__logo img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .navbar__login-line {
+    margin: 0 15px;
+  }
+}

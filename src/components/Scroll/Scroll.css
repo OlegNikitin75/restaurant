@@ -1,0 +1,33 @@
+.scroll {
+  align-self: flex-end;
+}
+
+.scroll-footer {
+  cursor: pointer;
+}
+
+.scroll__line {
+  width: 2px;
+  height: 60px;
+  margin: 0 auto;
+  background: linear-gradient(
+    #dcca87 0%,
+    #dcca87 43%,
+    rgba(220, 202, 135, 0.24) 92.71%
+  );
+}
+
+.scroll__label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-golden);
+}
+
+@media screen and (max-width: 768px) {
+  .scroll {
+    display: none;
+  }
+}
